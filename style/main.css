@@ -1,0 +1,200 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	grid-template-areas:
+		"header"
+		"welcome"
+		"time"
+		"date";
+
+	background-image: 
+}
+
+@font-face {
+  font-family: impact;
+  src: url(font/impact/impact.ttf);
+}
+
+body {
+	background-color: black;
+}
+
+p {
+	text-align: center;
+	font-family: impact;
+	margin-top: -3px;
+}
+
+.box-1 {
+	grid-area: header;
+}
+
+.logo {
+	margin-top: 0px;
+	margin-bottom: -30px;
+	width: 250px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.box-2{
+	grid-area: welcome;
+	text-align: center;
+	font-family: impact;
+	height: 250px;
+	font-size: 30px;
+	width: 350px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+#hello {
+	color: black;
+}
+
+#image img {
+	position: relative;
+	width: 70px;
+	margin-top: 20%;
+}
+
+#martians {
+	color: white;
+	background-color: black;
+	margin-top: 5px;
+}
+
+.box-3 {
+	grid-area: time;
+	font-family: digital;
+	height: 150px;
+	width: 350px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+#time {
+	font-family: impact;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+}
+
+.living {
+	margin-top: 20px;
+}
+
+.box-4 {
+	grid-area: date;
+	background-color: white;
+	height: 150px;
+	margin-top: -30px;
+	width: 350px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#day {
+	color: black;
+	font-family: impact;
+	text-align: center;
+	font-size: 50px;
+}
+
+/* IPAD SIZE */
+@media only screen and (min-width: 768px) {
+
+	.logo {
+		width: 300px;
+	}
+
+	#image img {
+		width: 90px;
+		margin-top: 10%;
+	}
+
+	.box-2 {
+		width: 550px;
+		height: 300px;
+		font-size: 40px;
+	}
+
+	.box-3 {
+		width: 550px;
+	}
+
+	.box-4 {
+		width: 550px;
+	}
+
+}
+
+	/* DESKTOP SIZE */
+@media only screen and (min-width: 1024px) {
+
+	.logo {
+		width: 350px;
+		margin-bottom: -35px;
+	}
+
+	#image img {
+		width: 170px;
+		margin-top: 10%;
+	}
+
+	.box-2 {
+		width: 900px;
+		height: 450px;
+		font-size: 60px;
+	}
+
+	.box-3 {
+		width: 900px;
+		height: 170px;
+	}
+
+	.living {
+		font-size: 20px;
+	}
+
+	#time {
+		font-size: 60px;
+	}
+
+	.box-4 {
+		width: 900px;
+		height: 100px;
+	}
+
+	#day {
+		font-size: 60px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
