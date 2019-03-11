@@ -24,6 +24,10 @@ p {
 	margin-top: -3px;
 }
 
+.grid-container {
+	margin-top: 200px;
+}
+
 .box-1 {
 	grid-area: header;
 }
@@ -91,7 +95,7 @@ p {
 .box-4 {
 	grid-area: date;
 	background-color: white;
-	height: 150px;
+	height: 500px;
 	margin-top: -30px;
 	width: 350px;
 	position: relative;
@@ -108,6 +112,10 @@ p {
 
 /* IPAD SIZE */
 @media only screen and (min-width: 768px) {
+
+	.grid-container {
+		margin-top: 100px;	
+	}
 
 	.logo {
 		width: 300px;
@@ -130,12 +138,17 @@ p {
 
 	.box-4 {
 		width: 550px;
+		height: 400px;
 	}
 
 }
 
 	/* DESKTOP SIZE */
 @media only screen and (min-width: 1024px) {
+
+	.grid-container {
+		margin-top: 0px;	
+	}
 
 	.logo {
 		width: 350px;
