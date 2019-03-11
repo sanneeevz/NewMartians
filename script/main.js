@@ -1,7 +1,7 @@
 //get current hours
 var hours = new Date().getHours();
 
-hours = 14;
+// hours = 14;
 
 //pakt datum en tijd
 function startTime() {
