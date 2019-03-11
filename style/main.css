@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Coda:800');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+
 .grid-container{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -8,13 +11,8 @@
 		"time"
 		"date";
 
-	background-image: 
 }
 
-@font-face {
-  font-family: impact;
-  src: url(font/impact/impact.ttf);
-}
 
 body {
 	background-color: black;
@@ -22,7 +20,7 @@ body {
 
 p {
 	text-align: center;
-	font-family: impact;
+	font-family: coda;
 	margin-top: -3px;
 }
 
@@ -42,7 +40,7 @@ p {
 .box-2{
 	grid-area: welcome;
 	text-align: center;
-	font-family: impact;
+	font-family: 'Coda';
 	height: 250px;
 	font-size: 30px;
 	width: 350px;
@@ -70,7 +68,7 @@ p {
 
 .box-3 {
 	grid-area: time;
-	font-family: digital;
+	font-family: 'Orbitron';
 	height: 150px;
 	width: 350px;
 	position: relative;
@@ -80,7 +78,7 @@ p {
 }
 
 #time {
-	font-family: impact;
+	font-family: 'Orbitron';
 	color: black;
 	font-size: 50px;
 	text-align: center;
@@ -103,7 +101,7 @@ p {
 
 #day {
 	color: black;
-	font-family: impact;
+	font-family: coda;
 	text-align: center;
 	font-size: 50px;
 }
